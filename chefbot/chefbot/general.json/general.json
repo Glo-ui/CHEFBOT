@@ -1,0 +1,341 @@
+{"intents":[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "How are you",
+            "Hey", 
+            "Hello",
+            "Is anyone there?"
+        ],
+        "responses": [
+            "Hello",
+            "Hi there, how may I help you today?",
+            "Hello, thanks for visiting"
+        ] 
+    },
+    {
+        "tag":"goodbye",
+        "patterns":[
+            "Bye", 
+            "Nice chatting with you",
+            "Goodbye!"
+        ],
+        "responses":[
+            "See you later, thanks for visiting",
+            "Have a nice day",
+            "Bye! Come back again soon."
+        ]
+    },
+    {
+        "tag":"thanks",
+        "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful", 
+            "Thank's a lot!"
+        ],
+        "responses":[
+            "Happy to help!", 
+            "Any time!", 
+            "My pleasure"
+        ] 
+    },
+    {
+        "tag": "find_recipe",
+        "patterns": [
+            "I am looking for a recipe",
+            "Can you help me find a recipe?",
+            "Do you know any good recipes?",
+            "Suggest me a recipe",
+            "Give me a recipe",
+            "What can I cook?",
+            "What should I make for dinner?",
+            "Can you recommend a recipe?",
+            "I need a recipe"
+        ],
+        "responses": [
+            "Sure! What ingredients do you have in mind?",
+            "I'd be happy to help. What ingredients do you have?",
+            "What ingredients are you planning to use?",
+            "Let me know what ingredients you have, and I'll find a recipe for you.",
+            "Tell me the ingredients you have, and I'll suggest a recipe."
+        ]
+    }
+],
+"ingredients":[
+    "chicken",
+    "beef",
+    "onion",
+    "ginger",
+    "carrot",
+    "potato",
+    "pepper",
+    "salt",
+    "milk",
+    "egg",
+    "flour",
+    "tomato",
+    "paprika",
+    "sugar",
+    "oil",
+    "rice",
+    "yogurt",
+    "coconut milk",
+    "lemon",
+    "cinnamon",
+    "coriander",
+    "parsley",
+    "capsicum",
+    "courgette",
+    "cornflakes",
+    "soy sauce",
+    "oregano",
+    "pilau masala",
+    "basmati rice",
+    "sausage",
+    "vegetable oil",
+    "white bread",
+    "pasta", 
+    "bacon", 
+    "eggs", 
+    "parmesan cheese", 
+    "black pepper",
+    "chicken breasts", 
+    "lemon juice", 
+    "olive oil", 
+    "garlic",  
+    "rosemary", 
+    "thyme"
+],
+"recipes": [
+    {
+        "title": "Pasta Carbonara",
+        "ingredients": [
+            "pasta", 
+            "bacon", 
+            "eggs", 
+            "parmesan cheese", 
+            "black pepper"
+        ],
+        "instructions": [
+            "Cook pasta according to package instructions. Drain and set aside.",
+            "In a large skillet, cook bacon until crispy. Remove bacon and drain on paper towels, leaving bacon fat in the skillet.",
+            "In a bowl, whisk together eggs, parmesan cheese, and black pepper.",
+            "Add cooked pasta to the skillet with the bacon fat. Toss to coat pasta with bacon fat.",
+            "Remove skillet from heat. Quickly pour egg mixture over hot pasta, stirring constantly until eggs thicken and coat the pasta.",
+            "Crumble bacon and sprinkle over pasta. Serve immediately."
+        ]
+    },
+    {
+        "title": "Grilled Lemon Herb Chicken",
+        "ingredients": [
+            "chicken breasts", 
+            "lemon juice", 
+            "olive oil", 
+            "garlic", 
+            "oregano", 
+            "rosemary", 
+            "thyme", 
+            "salt", 
+            "pepper"
+        ],
+        "instructions": [
+            "In a bowl, whisk together lemon juice, olive oil, minced garlic, oregano, rosemary, thyme, salt, and pepper.",
+            "Add chicken breasts to the marinade, turning to coat. Marinate in the refrigerator for at least 30 minutes.",
+            "Preheat grill to medium-high heat. Grill chicken for 6-7 minutes per side, or until cooked through and grill marks appear.",
+            "Remove chicken from grill and let rest for a few minutes before serving."
+        ]
+    },
+    {
+        "title": "Sausage Rolls",
+        "ingredients": [
+            "eggs",
+            "milk",
+            "cinnamon",
+            "chicken sausages",
+            "vegetable oil",
+            "white bread"
+        ],
+        "instructions": [
+            "Fry the sausages in the vegetable oil on low heat until golden brown. Once ready, set them aside.",
+            "Mix the eggs, milk and cinnamon in a bowl and whisk until desired consistency.",
+            "On a flat surface, cut the crusts off the slices and roll them out using a rolling pin until they're thin (make sure one slice is slightly on top of the other when rolling them out).",
+            "Dip the rolled-out bread slices into the egg mixture until they are fully coated.",
+            "Once dipped, take the roll and fry it in vegetable oil until golden brown. Repeat the process until done.",
+            "Once all the rolls are fried, dry them on paper towels and serve while still hot. Enjoy."
+        ]
+    },
+    {
+        "title": "Beef Samosa",
+        "ingredients": [
+            "flour",
+            "water",
+            "salt",
+            "oil",
+            "minced meat",
+            "onions",
+            "cloves garlic",
+            "red/green chili", 
+            "coriander", 
+            "salt to taste"
+        ],
+        "instructions": [
+            "Mix all the dry ingredients. Then add oil and mix again. Slowly add the water while kneading constantly for about 10 minutes until it's soft and not sticky. Then let it rest for 20 minutes. Shape the dough into small balls and flatten into thick discs. Cook dough on each side until it's transparent. Set aside and cut into halves.",
+            "In a pan on medium heat, put your beef, garlic and chili. Keep stirring until the water is dried. Put your onions and coriander and stir. Add salt to taste. Remove from heat and wait for it to cool down.",
+            "To fill the samosa pockets, take a spoon and scoop out the beef. Secure with the paste made with flour and water (it should be a little thick). Heat your oil and deep fry them in the pan until they are brown in color. Serve and enjoy."
+        ]
+    },
+    {
+        "title":"Cornflake Crispy Chicken",
+        "ingredients": [
+            "chicken",
+            "cornflakes",
+            "milk",
+            "egg",
+            "onion powder",
+            "paprika",
+            "sugar",
+            "salt",
+            "pepper"
+        ],
+        "instructions": [
+            "Preheat oven to 180c. Line a sheet pan with foil and brush with oil or cooking spray.",
+            "Whisk together the milk and eggs in a bowl.",
+            "Pulse the cornflakes and spices in a food processor until coarse crumbs form. Pour onto a flat plate.",
+            "Dip each chicken piece into the milk mixture, then roll in the cornflakes and spice mixture.",
+            "Place the chicken on the sheet pan in a single layer. Lightly spray the tops of the chicken pieces with cooking spray or oil.",
+            "Bake for 15 minutes or until the chicken is cooked through and crispy."
+        ]
+    },
+    {
+        "title": "Beef Biryani",
+        "ingredients": [
+            "rice",
+            "water",
+            "salt",
+            "oil",
+            "food color",
+            "onion",
+            "ginger",
+            "garlic",
+            "pilau masala",
+            "beef",
+            "tomato",
+            "bell pepper",
+            "tomato paste",
+            "maziwa mala",
+            "potato",
+            "curry powder"
+        ],
+        "instructions": [
+            "Deep fry onions until golden brown. Set aside.",
+            "Mix food color with potatoes and deep fry in the same oil until the potatoes have a crust. Remove and set aside.",
+            "Add oil used for frying to another pan. Cook ginger and garlic for 2 minutes. Add pilau spices or pilau masala and cook for another 2 minutes.",
+            "Add meat and stir. Add curry powder (optional) and salt.",
+            "Add tomatoes, bell peppers, and tomato paste. Stir and add maziwa mala. Stir.",
+            "Add onions and potatoes, cover, and slow cook for 25 to 30 minutes.",
+            "Boil water with salt and oil. Add rice and cover. When the water is almost dry, add dissolved food color at various spots. Cover and let the water dry out completely. Fluff rice with a fork.",
+            "Serve with rice at the bottom and rojo on top."
+        ]
+    },
+    {
+        "title": "Chicken Stew",
+        "ingredients": [
+            "chicken",
+            "ginger",
+            "garlic",
+            "chicken masala",
+            "black pepper",
+            "soy sauce",
+            "salt",
+            "oregano",
+            "water",
+            "onion",
+            "carrot",
+            "parsley",
+            "capsicum",
+            "courgette",
+            "oil"
+        ],
+        "instructions": [
+            "Clean your chicken with water and lemon, then pat it dry.",
+            "Marinate your chicken with the spices and store it in the fridge to settle.",
+            "Shallow fry the chicken with oil, then add your onions until golden brown.",
+            "Add the other ingredients.",
+            "Cover to simmer and let the ingredients cook. Add some water to create a thick soup.",
+            "Let it cook for about 20 minutes. Serve with your choice of accompaniment."
+        ]
+    },
+    {
+        "title": "Chicken Pilau",
+        "ingredients": [
+            "basmati rice",
+            "pilau masala",
+            "onion",
+            "salt",
+            "garlic ginger paste",
+            "water",
+            "chicken"
+        ],
+        "instructions": [
+            "Fry onions until blackened (this is key for a colorful and tasty pilau). Keep stirring to avoid burning.",
+            "Add garlic ginger paste and stir until fragrant, then add pilau masala and salt.",
+            "Stir in pre-cooked chicken and cook for about 3 minutes.",
+            "Add rice and water, and cook on medium heat until the water evaporates."
+        ]
+    },
+    {
+        "title": "Chicken Curry",
+        "ingredients": [
+            "olive oil",
+            "onion",
+            "garlic",
+            "curry powder",
+            "cinnamon",
+            "paprika",
+            "ginger",
+            "sugar",
+            "salt",
+            "chicken",
+            "tomato paste",
+            "yogurt",
+            "coconut milk",
+            "lemon",
+            "pepper"
+        ],
+        "instructions": [
+            "Heat olive oil in a skillet over medium heat. Sauté onion until lightly browned.",
+            "Stir in garlic, curry powder, cinnamon, paprika, ginger, sugar, and salt. Continue stirring for 2 minutes.",
+            "Add chicken pieces, tomato paste, yogurt, and coconut milk. Bring to a boil, reduce heat, and simmer for 20 to 25 minutes.",
+            "Remove bay leaf, and stir in lemon juice and pepper. Simmer for 5 more minutes."
+        ]
+    },
+    {
+        "title": "Beef Pilau",
+        "ingredients": [
+            "basmati rice",
+            "garlic",
+            "ginger",
+            "tomato",
+            "green bell pepper",
+            "coriander",
+            "onion",
+            "cinnamon",
+            "pilau masala",
+            "cumin",
+            "salt",
+            "water",
+            "oil",
+           "beef"
+        ],
+        "instructions": [
+            "Wash, chop, and boil the beef until evenly cooked and soft. Keep the stock.",
+            "Chop and fry the onions until translucent. Remove half a cup of onions and set aside. Add the meat and stir. Add garlic and ginger and cook for about 1 minute.",
+            "Add grated tomatoes and green bell pepper. Include the spices and let it simmer with a bit of beef stock for about 10 minutes until the stew is thick and oil floats at the top. Add rice and water, let it boil until dry.",
+            "Once cooked, add coriander and reserved onions. Gently incorporate into the pilau."
+        ]
+    }
+]
+}
+    
